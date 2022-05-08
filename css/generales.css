@@ -1,0 +1,210 @@
+:root {
+
+    /*paleta de color*/
+    --platinum: #E8E8E8;
+    --gainsboro: #E0E0E0;
+    --dark-liver: #4D4847;
+    --raisin-black: #282828;
+    --royal-blue-dark: #112A63/*#0a2463*/ ;
+    --oxford-blue: #081C38/*#071933*/ ;
+}
+
+*{
+    font-family: Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/*h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+h4{
+    font-size: 2em;
+}
+
+h5{
+    font-size: 1.5em;
+}
+h6{
+    font-size: 1em;
+}*/
+
+header{
+    height: 12vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    height: 30vh;
+}
+
+
+/*page bg colors*/
+.bg-dark-liver {
+    background-color: var(--dark-liver) !important;
+}
+
+.bg-carta{
+    background-image: url("../media/imgs/carta.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--raisin-black);
+    background-size: cover;
+}
+
+.bg-gainsboro {
+    background-color: var(--gainsboro) !important;
+}
+
+.bg-oxford-blue {
+    background-color: var(--oxford-blue) !important;
+}
+
+.bg-platinum {
+    background-color: var(--platinum) !important;
+}
+
+.bg-radial-oscuro{
+    background: radial-gradient(rgba(0,0,0,.2), rgba(0,0,0,.15));
+}
+
+.bg-raisin-black {
+    background-color: var(--raisin-black) !important;
+}
+
+.bg-royal-blue-dark {
+    background-color: var(--royal-blue-dark) !important;
+}
+
+.bg-sitio{
+    background-image: url("../media/imgs/restaurant.jpg");
+    background-repeat: no-repeat;
+    background-color: var(--platinum);
+    background-size: cover;
+}
+
+/*botones*/
+
+.btn-oscuro {
+    background-color: var(--royal-blue-dark);
+    color: var(--gainsboro);
+}
+
+.btn-oscuro-outline {
+    background-color: transparent;
+    color: var(--royal-blue-dark);
+    border: 1px solid var(--royal-blue-dark);
+}
+
+
+.btn-claro{
+    background-color: var(--gainsboro);
+    color: var(--royal-blue-dark);
+}
+
+.btn-oscuro:hover {
+    background-color: transparent;
+    border: 1px solid var(--royal-blue-dark);
+    color: var(--royal-blue-dark);
+    font-weight: 500;
+}
+
+.btn-oscuro-outline:hover {
+    background-color: var(--royal-blue-dark);
+    color: var(--gainsboro);
+    font-weight: 500;
+}
+
+.btn-claro:hover {
+    background-color: transparent;
+    border: 1px solid var(--gainsboro);
+    color: var(--gainsboro);
+    font-weight: 500;
+}
+
+.btn-oscuro:hover, .btn-oscuro-outline:hover, .btn-claro:hover {
+    letter-spacing: 3px;
+    transition: 500ms ease;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 60%;
+}
+
+.nav-link {
+    color: var(--oxford-blue);
+    font-weight: 500;
+    font-size: 1.15rem;
+}
+
+.nav-link:hover {
+    color: var(--oxford-blue);
+    text-shadow: 2.5px 2px 2px rgba(0,0,65,.45);
+}
+
+/*page font colors*/
+.text-dark-liver {
+    color: var(--dark-liver) !important;
+}
+
+.text-gainsboro {
+    color: var(--gainsboro) !important;
+}
+
+.text-oxford-blue {
+    color: var(--oxford-blue) !important;
+}
+
+.text-platinum {
+    color: var(--platinum) !important;
+}
+
+.text-raisin-black {
+    color: var(--raisin-black) !important;
+}
+
+.text-royal-blue-dark {
+    color: var(--royal-blue-dark) !important;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+/*media queries*/
+@media (max-width:992px) {
+    header{
+        height: fit-content;
+    }
+
+    .hero{
+        visibility: hidden;
+        height: 0;
+    }
+
+    .btn-oscuro, .btn-oscuro-outline, .btn-claro{
+        width: 100%
+    }º
+}
