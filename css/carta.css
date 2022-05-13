@@ -1,0 +1,65 @@
+@import "./generales.css";
+.accordion{
+	background-color: rgba(148,148,148,0.001);
+	border-radius: 5px;
+	border: 0;
+} 
+
+.accordion-body img{
+	box-shadow: 0 7px 5px rgba(0,0,0,.3);
+}
+
+.btn-plato {
+	border-bottom: 2px solid rgba(148,148,148,1);
+	font-weight: bold;
+	padding: .7em;
+	width: 100%;
+}
+
+.btn-plato:hover {
+	background-color: rgba(0,0,0,.035);
+	border: .2 solid rgba(148,148,148,.15);
+	border-radius: 10px;
+	transform: 500ms ease;
+}
+
+.ellipsis{
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.img-plato{
+	border-radius: 5.5px;
+}
+
+.plato {
+	background-color: rgba(148,148,148,.026);
+}
+
+.seccion-der .accordion-body{
+	background-color: rgba(50,50,50, .25);
+}
+
+.seccion-iz .accordion-body{
+	background-color: rgba(184,184,184, .2);
+}
+
+.seccion-der *{
+	color: var(--platinum);
+}
+
+.seccion-iz *{
+	color: var(--raisin-black)
+}
+
+.seccion-iz, .seccion-der{
+	padding: 2.5em;
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.accordion{
+		width: 90%;
+	}
+}

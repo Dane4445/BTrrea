@@ -13,10 +13,10 @@
 
 <body>
     <div class="text-raising-black bg-gainsboro">
-        <header class="p-3 bg-gainsboro text-dark-liver">
-            <div class="container h-100">
-                <div class="h-100 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <a href="index.html" class="logo h-100"><img src="./BTrrea/media/imgs/Logo.png"></a>
+        <header class="p-3 text-dark-liver">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="#" class="logo"><img src="./BTrrea/media/imgs/Logo.png" class="d-block"></a>
                     <ul class="nav col-12 col-lg-auto mx-lg-auto justify-content-center mb-md-0">
                         <li><a href="#" class="nav-link">Inicio</a></li>
                         <li><a href="./BTrrea/carta.php" class="nav-link">Carta</a></li>
@@ -31,7 +31,12 @@
             </div>
         </header>
         <div class="hero w-100">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./BTrrea/media/imgs/carousel1.jpg" class="d-block w-100" alt="plato con caviar">
@@ -40,7 +45,7 @@
                         <img src="./BTrrea/media/imgs/carousel2.jpg" class="d-block w-100" alt="plato con caviar">
                     </div>
                     <div class="carousel-item">
-                        <img src="./BTrrea/media/imgs/carousel3.jpg" class="d-block w-100" alt="plato con caviar">
+                        <img src="./BTrrea/media/imgs/carousel_3.jpg" class="d-block w-100" alt="plato con caviar">
                     </div>
                 </div>
             </div>
@@ -57,7 +62,7 @@
                             <div class="col-lg-8 align-self-baseline">
                                 <p class="mb-4 texto-justificado">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente sed deleniti fugit reprehenderit delectus in eaque expedita eos nesciunt molestias molestiae numquam blanditiis laborum quidem eligendi excepturi illum totam, culpa.</p>
                                 <div class="d-flex justify-content-center">
-                                    <a class="btn btn-oscuro w-50 rounded-pill" href="./BTrrea/carta.php" >Nuestros Servicios</a>
+                                    <a class="btn btn-oscuro w-50 rounded-pill" href="./BTrrea/carta.php">Nuestros Servicios</a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +80,7 @@
                             <div class="col-lg-8 align-self-baseline">
                                 <p class="mb-4 texto-justificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, error fuga natus omnis dolore ratione deleniti, deserunt, quisquam beatae officia distinctio. Quod unde tempore adipisci repellendus tempora delectus, quo, quam. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <div class="d-flex justify-content-center">
-                                    <a class="btn btn-claro w-50 rounded-pill" href="./BTrrea/como_llegar.php" >Ver Más</a>
+                                    <a class="btn btn-claro w-50 rounded-pill" href="./BTrrea/como_llegar.php">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +97,7 @@
                         </div>
                         <div class="col-lg-8 align-self-baseline">
                             <p class="desaparecer mb-4">Tienes aqui una pagina para mandarnos un mail contandonos lo que quieras.<br> Entra a verla!</p>
-                            <a class="btn btn-oscuro w-50 rounded-pill" href="./BTrrea/mailpage/mail.php" >Contactanos</a>
+                            <a class="btn btn-oscuro w-50 rounded-pill" href="./BTrrea/mailpage/mail.php">Contactanos</a>
                         </div>
                     </div>
                 </div>
