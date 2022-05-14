@@ -1,17 +1,20 @@
-<header class="p-3 pb-3 bg-gainsboro text-dark-liver">
-	<div class="container h-100">
-	    <div class="h-100 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-	        <a href="index.html" class="logo"><img src="./media/imgs/Logo.png" class="w-50"></a>
-	        <ul class="nav col-12 col-lg-auto mx-lg-auto justify-content-center mb-md-0">
-	            <li><a href="../index.html" class="nav-link">Inicio</a></li>
-	            <li><a href="./carta.php" class="nav-link">Carta</a></li>
-	            <li><a href="./como_llegar.php" class="nav-link">Donde estamos</a></li>
-	            <li><a href="./contactos.php" class="nav-link">Contactanos</a></li>
-	        </ul>
-	        <div class="h-100 d-flex flex-wrap align-items-center text-end">
-	            <a href="#" class="btn rounded-pill btn-oscuro-outline me-3 px-3">Log in</a>
-	            <a href="#" class="btn rounded-pill btn-oscuro px-4">Sign-up</a>
-	        </div>
-	    </div>
-	</div>
+<header class="p-3 text-dark-liver">
+    <div class="container">
+        <div class="bloque-centro flex-wrap justify-content-lg-start">
+            <!-- logo -->
+            <a href="../index.html" class="logo bloque-centro"><img src="./media/imgs/Logo.png" class="h-100"></a>
+            <!-- navbar -->
+            <ul class="nav col-12 col-lg-auto mx-lg-auto justify-content-center mb-md-0">
+                <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                <li><a href="./carta.php" class="nav-link">Carta</a></li>
+                <li><a href="./como_llegar.php" class="nav-link">Donde estamos</a></li>
+                <li><a href="./contactos.php" class="nav-link">Contactanos</a></li>
+            </ul>
+            <!-- login y sign-up -->
+            <ul class="col-12 col-lg-3 bloque-centro ps-0 mb-0">
+                <a href="#" class="btn rounded-pill btn-oscuro-outline me-3 px-4">Log in</a>
+                <a href="#" class="btn rounded-pill btn-oscuro px-4">Sign-up</a>
+            </ul>
+        </div>
+    </div>
 </header>

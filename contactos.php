@@ -1,7 +1,3 @@
-<!-- <?php
-	define('SITE_KEY', '6LdRkrMfAAAAAF5xE84WsTUGg3pN_8K9UThrqOKF'); 
-?> -->
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,8 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/otros.css">
     <link rel="icon" href="./media/iconos/BTrrea-Icono.png">
-	<!-- <script src='https://www.google.com/recaptcha/api.js?render=SITE_KEY'></script>
- --></head>
+</head>
 <body>
 	<div class="bg-platinum">
 		<?php include "header.txt";?>
@@ -23,7 +18,6 @@
 				<section class="d-flex align-items-center col-lg-7 me-lg-5 mb-5">
 					<div class="mensaje-feedback">
 						<?php
-							// require "./validar_captcha.php";
 		                    if(isset($_GET['rec'])){
 		                    	if (isset($_GET['env'])) {
 				            		$msg = '<h4 class="text-success rounded-pill text-center">¡Mensaje enviado!</h4>';
@@ -71,7 +65,6 @@
 						</div>
 						<div class='col-lg-10 mx-auto'>
 						    <input type='submit' id="envio" name='enviado_btn' value="Envio" class='btn text-center w-100 fs-6 fw-bold rounded-pill bg-oxford-blue text-platinum'>
-							<!-- <input type="hidden" name="recaptcha_response" id="recaptchaResponse"> -->
 						</div>
 					</form>
 				</section>
@@ -80,15 +73,6 @@
 
 		<?php include "footer.txt"; ?>
 	</div>
-<!-- 	<script>
-	grecaptcha.ready(function() {
-		grecaptcha.execute('SITE_KEY', {action: 'submit'})
-		.then(function(token) {
-			var recaptchaResponse = document.getElementById('recaptchaResponse');
-			recaptchaResponse.value = token;
-		});
-	});
-	</script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
